@@ -1,0 +1,16 @@
+name: Rules-Rulea
+main: NurAzliYT\Rules\Main
+version: 1.0.0
+api: 5.0.0
+author: NurAzliYT
+description: "Open Rules No UI"
+
+commands:
+rules:
+permission: rules.command
+description: "Open Rules No UI"
+
+
+permissions:
+rules.command:
+default: true
