@@ -7,7 +7,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 
-class Rules extends PluginBase {
+class Main extends PluginBase {
 
    public function onEnable():void{
    }
@@ -20,3 +20,4 @@ class Rules extends PluginBase {
       return true;
     }
 } 
+}
