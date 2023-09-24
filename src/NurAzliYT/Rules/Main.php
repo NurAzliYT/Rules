@@ -10,14 +10,14 @@ use pocketmine\player\Player;
 class Main extends PluginBase {
 
    public function onEnable():void{
+      
    }
-  public function onCommand(CommandSender $sender,Command $command, string $label, Array $args):bool{
+  public function onCommand(CommandSender $sender, Command $command, String $label, Array $args):bool{
 
     if($command->getName() == "rules"){
 
-      $sender->sendMessage("Rules, You must obey these server rules, 1. No toxic 2. No X-rays 3. No Hacks 4
-       No Cheat 5. Thieves are prohibited");
+      $sender->sendMessage("Rules, You must obey these server rules, 1. No toxic 2. No X-rays 3. No Hacks 4. No Cheat 5. Thieves are prohibited");
       return true;
     }
-} 
+  } 
 }
